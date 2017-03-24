@@ -20,29 +20,56 @@ body {
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
+  position: relative;
 }
 
 .box {
+  position: relative;
   width: 200px;
   height: 200px;
+  display: inline-block;
 }
 
 .red {
   background-color: pink;
+  position: absolute;
+  top: 50px;
+  right: 75px;
 }
 
 .green {
   background-color: lightgreen;
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+
 }
 
 .blue {
   background-color: lightblue;
+  position: relative;
+  top: 50px;
+  left: 200px;
 }
 
 .orange {
   background-color: orange;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+
 }
 
 .yellow {
   background-color: yellow;
+  width: 100%;
+
+}
+
+#fixed
+{
+
+  position: fixed;
+  right: 0px;
+  top:430px;
 }
